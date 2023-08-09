@@ -7,7 +7,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex items-center justify-between px-20 py-12">
+    <nav className="flex items-center justify-between">
       <div className="p-2 text-white uppercase border border-white font-crimson-pro font-extralight">
         This Interior
       </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
             className={`transition ease-in capitalize pb-2 border-b-2 cursor-pointer relative ${
               isActive
                 ? "font-bold border-white"
-                : "font-medium border-black hover:border-white"
+                : "font-medium border-[#181719] hover:border-white"
             }`}
           >
             <a href="#">{text}</a>

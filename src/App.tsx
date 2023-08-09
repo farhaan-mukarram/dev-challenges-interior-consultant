@@ -1,11 +1,12 @@
-import Navbar from "./assets/components/Navbar";
-
-import Footer from "./assets/components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div className="bg-black">
+    <div className="px-20 py-12 bg-[#181719] drop-shadow-[0_2px_25px_rgba(0,0,0,0.1)]">
       <Navbar />
+      <Main />
       <Footer />
     </div>
   );
