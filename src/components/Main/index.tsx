@@ -4,7 +4,7 @@ import rightArrow from "../../assets/rightArrow.svg";
 
 const Main = () => {
   return (
-    <div className="flex flex-col min-h-screen text-white lg:flex-row lg:items-center lg:justify-between ">
+    <div className="z-0 flex flex-col min-h-screen text-white lg:flex-row lg:items-center lg:justify-between">
       <div className="space-y-9 lg:space-y-12 basis-1/3 my-9 lg:my-0">
         <div className="space-y-6 lg:space-y-10">
           <h2 className="text-4xl font-medium lg:text-5xl font-lora">

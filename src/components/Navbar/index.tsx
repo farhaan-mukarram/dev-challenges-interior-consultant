@@ -1,3 +1,6 @@
+import DesktopToolbar from "./DesktopToolbar";
+import MobileToolbar from "./MobileNavMenu";
+
 const Navbar = () => {
   const navbarLinks = [
     { text: "home", isActive: true },
@@ -12,20 +15,9 @@ const Navbar = () => {
         This Interior
       </div>
 
-      <ul className="flex items-center justify-between text-lg text-white basis-1/3">
-        {navbarLinks.map(({ text, isActive }) => (
-          <li
-            key={text}
-            className={`transition ease-in capitalize pb-2 border-b-2 cursor-pointer relative ${
-              isActive
-                ? "font-bold border-white"
-                : "font-medium border-[#181719] hover:border-white"
-            }`}
-          >
-            <a href="#">{text}</a>
-          </li>
-        ))}
-      </ul>
+      <DesktopToolbar navbarLinks={navbarLinks} />
+
+      <MobileToolbar navbarLinks={navbarLinks} />
     </nav>
   );
 };
