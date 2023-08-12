@@ -33,7 +33,7 @@ const MobileNavMenu: FunctionComponent<Props> = ({ navbarLinks }) => {
       />
 
       <ul
-        className={`fixed top-0 right-0 flex flex-col items-center text-lg text-white bg-[#181719] h-screen justify-center z-40 space-y-6 transition-all ease-in-out duration-300 overflow-hidden ${
+        className={`fixed top-0 right-0 flex flex-col items-center text-lg text-white bg-primary h-screen justify-center z-40 space-y-6 transition-all ease-in-out duration-300 overflow-hidden ${
           isMobileNavMenuOpen ? "w-full" : "w-0"
         }`}
       >

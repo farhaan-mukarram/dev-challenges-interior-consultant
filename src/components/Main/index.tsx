@@ -31,7 +31,7 @@ const Main = () => {
       <div className="relative basis-2/4">
         <img src={photo1} alt="Interior Design Photo" />
 
-        <div className="max-w-[300px] lg:max-w-none absolute lg:-bottom-24 -bottom-20 right-3 lg:right-8 flex flex-col py-3 px-6 lg:px-8 lg:py-4 space-y-5 lg:space-y-7 bg-[#181719] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+        <div className="max-w-[300px] lg:max-w-none absolute lg:-bottom-24 -bottom-20 right-3 lg:right-8 flex flex-col py-3 px-6 lg:px-8 lg:py-4 space-y-5 lg:space-y-7 bg-primary drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
           <div className="flex space-x-4 ">
             <img
               src={photo2}
