@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="sticky top-0 flex items-center justify-between py-4">
+    <nav className="sticky top-0 flex items-center justify-between py-4 bg-[#181719] max-w-7xl z-50">
       <div className="p-2 text-white uppercase border border-white font-crimson-pro font-extralight">
         This Interior
       </div>

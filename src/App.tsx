@@ -5,11 +5,14 @@ import Main from "./components/Main";
 
 const App = () => {
   return (
-    <Container>
+    <>
       <Navbar />
-      <Main />
-      <Footer />
-    </Container>
+
+      <Container>
+        <Main />
+        <Footer />
+      </Container>
+    </>
   );
 };
 
