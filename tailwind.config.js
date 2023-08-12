@@ -8,6 +8,9 @@ export default {
         lora: ["Lora", "serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        primary: "var(--color-primary)",
+      },
     },
   },
   plugins: [],
