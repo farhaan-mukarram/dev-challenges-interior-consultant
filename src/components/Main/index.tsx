@@ -23,7 +23,7 @@ const Main = () => {
           >
             <p>Read More</p>
 
-            <img src={rightArrow} alt="Right Arrow Icon" className="ml-3" />
+            <img src={rightArrow} alt="Right Arrow Icon" className="h-6 ml-3" />
           </a>
         </div>
       </div>
