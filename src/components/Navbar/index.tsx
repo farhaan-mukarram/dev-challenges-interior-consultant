@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="sticky top-0 flex items-center justify-between py-4 bg-primary max-w-7xl z-50 mx-auto px-3 lg:px-20">
+    <nav className="sticky top-0 z-50 flex items-center justify-between px-3 py-4 mx-auto bg-primary max-w-7xl lg:px-20 sm:px-14">
       <div className="p-2 text-white uppercase border border-white font-crimson-pro font-extralight">
         This Interior
       </div>

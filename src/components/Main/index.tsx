@@ -4,7 +4,7 @@ import rightArrow from "../../assets/rightArrow.svg";
 
 const Main = () => {
   return (
-    <div className="z-0 flex flex-col min-h-screen text-white lg:flex-row lg:items-center lg:justify-between">
+    <main className="z-0 flex flex-col flex-1 pb-32 text-white lg:flex-row lg:items-center lg:justify-between">
       <div className="space-y-9 lg:space-y-12 basis-1/3 my-9 lg:my-0">
         <div className="space-y-6 lg:space-y-10">
           <h2 className="text-4xl font-medium lg:text-5xl font-lora">
@@ -31,8 +31,8 @@ const Main = () => {
       <div className="relative basis-2/4">
         <img src={photo1} alt="Interior Design Photo" />
 
-        <div className="max-w-[300px] lg:max-w-none absolute lg:-bottom-24 -bottom-20 right-3 lg:right-8 flex flex-col py-3 px-6 lg:px-8 lg:py-4 space-y-5 lg:space-y-7 bg-primary drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-          <div className="flex space-x-4 ">
+        <div className="max-w-[300px] sm:max-w-none absolute lg:-bottom-24 -bottom-20 right-3 lg:right-8 flex flex-col py-3 px-6 lg:px-8 lg:py-4 space-y-5 lg:space-y-7 bg-primary drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+          <div className="flex space-x-4">
             <img
               src={photo2}
               alt="Aliza Webber Photo"
@@ -52,7 +52,7 @@ const Main = () => {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
