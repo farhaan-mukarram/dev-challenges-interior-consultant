@@ -8,7 +8,7 @@ interface Props {
 
 const DesktopToolbar: FunctionComponent<Props> = ({ navbarLinks }) => {
   return (
-    <ul className="items-center justify-between hidden text-lg text-white lg:flex basis-1/3">
+    <ul className="items-center justify-between hidden text-lg text-white lg:flex basis-1/2">
       {navbarLinks.map(({ text, isActive }) => (
         <li
           key={text}
